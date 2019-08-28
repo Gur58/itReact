@@ -1,0 +1,43 @@
+.services{
+    height: 100vh;
+    background-color: rgba(8, 141, 156, 1);
+    background-image:linear-gradient(to bottom, black 5%, transparent 100%), url("services.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 18%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .item{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.services .item img{
+    width: 100%;
+}
+
+
+@media screen and (max-device-width: 560px){
+    .services .item{
+        width: 350px;
+    }
+    .services .item p{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+    .services .item{
+        width: 150px;
+    }
+    .services{
+        padding-top: 70px;
+    }
+}

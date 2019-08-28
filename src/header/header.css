@@ -1,0 +1,19 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #081013;
+    opacity: 0.9;
+    justify-content: flex-start;
+    color: #088d9c;
+}
+
+.navbar-dark .navbar-brand{
+    color: #088d9c;
+}
+
+@media screen and (max-device-width: 560px) {
+    .navbar-dark .navbar-brand{
+        color: #088d9c;
+        font-size: 40px;
+    }
+}

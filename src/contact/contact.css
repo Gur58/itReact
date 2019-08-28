@@ -1,0 +1,34 @@
+.contact{
+    height: 100vh;
+    background-image: url("contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+.contact div{
+    background-color: #088d9c;
+    padding: 10px;
+    border-radius: 5px;
+    color: #081013;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,1), 0 10px 10px rgba(0,0,0,1);
+}
+
+.contact div h1{
+    color: whitesmoke;
+}
+
+
+@media screen and (max-device-width: 560px){
+    .contact div h1{
+        font-size: 5.5rem;
+        color: whitesmoke;
+    }
+
+}
+
